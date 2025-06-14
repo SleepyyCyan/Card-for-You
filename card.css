@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#image {
+  border-radius: 20px;
+  width: 20rem;
+  animation: spin 1500ms linear paused;
+  animation-iteration-count: 1;
+}
+
+#newCardBtn {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  border: 2.5px solid #000;
+  border-radius: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+    
+  }
+  
+  100% {
+    transform: rotateY(360deg);
+    
+  }
+}

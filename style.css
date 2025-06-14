@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginPage {
+  height: 50%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+#passwordInput {
+  height: 12%;
+  width: 85%;
+  padding: 10px;
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background: transparent;
+  border: 2.5px solid #000;
+  border-radius: 10px;
+  outline: none;
+}
+#passwordInput::placeholder{
+  color: black;
+}
+
+.BtnContainer {
+  height: 75%;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 25px;
+}
+
+.BtnContainer button {
+  height: 3.5rem;
+  width: 3.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}

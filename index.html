@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Card for You</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="loginPage">
+    <input type="text" id="passwordInput" readonly placeholder="Enter your password">
+    
+    <div class="BtnContainer">
+      
+      <button onclick="append(1)">1</button>
+      <button onclick="append(2)">2</button>
+      <button onclick="append(3)">3</button>
+      <button onclick="append(4)">4</button>
+      <button onclick="append(5)">5</button>
+      <button onclick="append(6)">6</button>
+      <button onclick="append(7)">7</button>
+      <button onclick="append(8)">8</button>
+      <button onclick="append(9)">9</button>
+      <button onclick="append(0)">0</button>
+      
+      <button onclick="removeVal()"><i class="fa-solid fa-delete-left"></i></button>
+      <button id="loginBtn"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+      
+    </div>
+  </div>
+  
+  <script src="main.js" defer></script>
+</body>
+
+</html>
